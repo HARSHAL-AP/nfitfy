@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+![Screenshot 2023-09-08 205048](https://github.com/HARSHAL-AP/nfitfy/assets/100954039/c84fa96e-381d-4328-898c-1675588643b7)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
