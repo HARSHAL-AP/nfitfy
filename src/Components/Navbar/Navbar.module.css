@@ -1,0 +1,189 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.licicon {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.serchbarcom {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.serchbarcom > input {
+  width: 430px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding-left: 20px;
+  background-color: rgba(114, 9, 74, 0.252);
+  font-weight: 600;
+  color: #fff;
+}
+.serchbarcom > input::placeholder {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.serchbarcom > input::-ms-value {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+.serchicon {
+  margin-left: -30px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.connectbutton {
+  width: 30%;
+  height: 52px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectbutton > button {
+  width: 155px;
+  background: linear-gradient(95deg, #7c0f35 7.59%, #581266 104.01%);
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 25px;
+  height: 52px;
+  border: 0px;
+  border-radius: 25px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 1000vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgb(26, 26, 26);
+  border-top-right-radius: 30px;
+}
+
+.lbody {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: aliceblue;
+}
+.linkspa {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color:rgba(243, 0, 80, 1) ;
+  gap: 15px;
+
+  font-size:20px;
+  color: #fff;
+}
+.linkspa >h3,.linkspa2 >h3{
+  font-weight: 500;
+  margin-left:30px;
+}
+.linkspa2 {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color:rgb(26, 26, 26) ;
+  gap: 20px;
+  font-size:20px;
+  color: #fff;
+}
+.socialsicon{
+  height: 50px;
+  width: 90%;
+  margin-top: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(243, 0, 80, 1);
+  font-size: 25px;
+  gap: 15px;
+}
+@media screen and (max-width: 720px) {
+  .navbar {
+    height: 155px;
+    width: 100%;
+   
+    display: grid;
+    grid-template-areas:
+      "a a c c"
+      "b b b b";
+    gap: 10px;
+  }
+
+  .licicon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: a;
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 800;
+    gap: 20px;
+  }
+
+  .serchbarcom {
+    grid-area: b;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .connectbutton {
+    grid-area: c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .connectbutton > button {
+    width: 155px;
+    background-color: rgb(100, 11, 35);
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 25px;
+    height: 52px;
+    border-radius: 25px;
+  }
+  .serchbarcom > input {
+    width: 327px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 20px;
+    background-color: rgba(114, 9, 74, 0);
+    font-weight: 600;
+  }
+  .serchbarcom > input::placeholder {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+  }
+}
